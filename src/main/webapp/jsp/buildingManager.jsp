@@ -28,13 +28,6 @@
             $("#updateName").val(name)
             $("#updateIntroduction").val(introduction)
             $("#dormitoryId").val(adminId)
-            // var list = $("#admin")
-            // console.log("list.length"+list.length)
-            // for(var i=0;i<list.length;i++){
-            //     if (adminId == $(list.get(i)).val()){
-            //         $(list.get(i)).prop('selected',true)
-            //     }
-            // }
         }
         function del(event){
             $("#form_data_del").show()

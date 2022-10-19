@@ -42,31 +42,9 @@
 
             $("#updateId").val(id)
             $("#updateBuildingId").val(buildingId)
-            // var list1 = $("#building")
-            // for(var i=0;i<list1.length;i++){
-            //     if(buildingId==$(list1.get(i)).val()){
-            //         $(list1.get(i)).prop('selected',true)
-            //     }
-            // }
             $("#updateName").val(name)
             $("#type").val(type)
-            // var list2 = $("#type1")
-            // console.log("list2.length"+list2.length)
-            // for(var i=0;i<list2.length;i++){
-            //     console.log("list2:"+$(list2.get(i)).val())
-            //     if(type==$(list2.get(i)).val()){
-            //         $(list2.get(i)).prop('selected',true)
-            //     }
-            // }
             $("#available").val(available)
-            // var list3 = $("#available1")
-            // console.log("list3.length"+list3.length)
-            // for(var i=0;i<list3.length;i++){
-            //     console.log("list3:"+$(list3.get(i)).val())
-            //     if(available==$(list3.get(i)).val()){
-            //         $(list3.get(i)).prop('selected',true)
-            //     }
-            // }
             $("#updateTelephone").val(telephone)
         }
         function cancel(event){
